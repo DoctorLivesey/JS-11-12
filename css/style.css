@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding-top: 20px;
+}
+/*CAROUSEL*/
+.carousel-list{
+	list-style: none;
+	width: 10000px;;
+}
+.carousel-element{
+	float: left;
+	position: relative;
+	display: block;
+	margin-right: 10px;
+	text-align: center;	
+}
+.carousel-hider{
+	width: 1220px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.button-right{
+	position: absolute;
+	right: 2px;
+	top: 150px;
+	cursor: pointer;
+}
+.button-left{
+    position: absolute;
+	left: 2px;
+	top: 150px;
+	cursor: pointer;
+}
+/*PROFILE*/
+.profile{
+	margin: 50px 0;
+	text-align: center;
+}
+hr{
+	width: 200px;
+	margin: 0 auto;
+}
